@@ -16,8 +16,15 @@ A Python project starter template with [Claude Code](https://claude.ai/code) int
 
 ```bash
 # 1. Clone
-git clone <this-repo> my-project
+# HTTPS
+git clone https://github.com/pakhapoom/project-starter.git my-project
+
+# SSH
+git clone git@github.com:pakhapoom/project-starter.git my-project
+
+# Strip the remote
 cd my-project
+git remote remove origin
 
 # 2. Initialize project
 uv init
