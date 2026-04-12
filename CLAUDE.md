@@ -14,6 +14,7 @@ Use `uv` for all Python dependency and execution tasks — never use `pip`, `pyt
 - Python 3.12+
 - Prefer simple, direct code over abstractions
 - No unnecessary comments, docstrings, or type annotations on unchanged code
+- Comments use `# <comment>` style and American English
 
 ## General Preferences
 - Short, concise responses — lead with the answer
